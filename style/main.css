@@ -206,7 +206,7 @@ nav{
 .page2:hover img{
     transform: scale(1.2);
 }
-hgroup{
+strong{
     position: absolute;
     top: 0;
     left: 0;
@@ -220,10 +220,10 @@ hgroup{
     overflow: hidden;
     transition: all .5s linear;
 }
-.page2:hover hgroup{
+.page2:hover strong{
     transform: rotate(0) translateY(0) translateX(0); 
 }
-hgroup h4{
+strong h4{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 30px;
@@ -233,11 +233,11 @@ hgroup h4{
     transition: all .3s linear;
     transition-delay: .5s;
 }
-.page2:hover hgroup h4 {
+.page2:hover strong h4 {
     transform: rotate(0) translateY(0) translateX(0);
     color: rgba(255, 255, 255, 1);
 }
-hgroup p{
+strong p{
     font-family: 'Oswald', sans-serif;
     padding: 0 50px;
     font-size: 22px;
@@ -252,11 +252,11 @@ hgroup p{
     transition: all .3s linear;
     transition-delay: .5s;
 }
-.page2:hover hgroup p{
+.page2:hover strong p{
     transform: rotate(0) translateY(0) translateX(0); 
     color: rgba(255, 255, 255, 1);
 }
-hgroup a{
+strong a{
     font-family: 'Oswald', sans-serif;
     color: rgba(255, 255, 255, 1);
     margin-top: 20px;
@@ -270,7 +270,7 @@ hgroup a{
     transition: all .4s linear;
     transition-delay: .4s;
 }
-.page2:hover hgroup a {
+.page2:hover strong a {
     opacity: 1;
     transform: translateY(0);
 }
@@ -288,7 +288,7 @@ hgroup a{
 .page01:hover img{
     transform: scale(1.2);
 }
-hgroup{
+strong{
     position: absolute;
     top: 0;
     left: 0;
@@ -302,10 +302,10 @@ hgroup{
     overflow: hidden;
     transition: all .5s linear;
 }
-.page01:hover hgroup{
+.page01:hover strong{
     transform: rotate(0) translateY(0) translateX(0); 
 }
-hgroup h4{
+strong h4{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 30px;
@@ -315,11 +315,11 @@ hgroup h4{
     transition: all .3s linear;
     transition-delay: .5s;
 }
-.page01:hover hgroup h4 {
+.page01:hover strong h4 {
     transform: rotate(0) translateY(0) translateX(0);
     color: rgba(255, 255, 255, 1);
 }
-hgroup p{
+strong p{
     font-family: 'Oswald', sans-serif;
     padding: 0 50px;
     font-size: 22px;
@@ -334,11 +334,11 @@ hgroup p{
     transition: all .3s linear;
     transition-delay: .5s;
 }
-.page01:hover hgroup p{
+.page01:hover strong p{
     transform: rotate(0) translateY(0) translateX(0); 
     color: rgba(255, 255, 255, 1);
 }
-hgroup a{
+strong a{
     font-family: 'Oswald', sans-serif;
     color: rgba(255, 255, 255, 1);
     margin-top: 20px;
@@ -352,7 +352,7 @@ hgroup a{
     transition: all .4s linear;
     transition-delay: .4s;
 }
-.page01:hover hgroup a {
+.page01:hover strong a {
     opacity: 1;
     transform: translateY(0);
 }
